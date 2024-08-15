@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	stringConexao := "golang:gabi15102004@/devbook?charset=utf8&parseTime=True&loc=Local"
+	stringConexao := ""
 	db, erro := sql.Open("mysql", stringConexao)
 	if erro != nil {
 		log.Fatal(erro)
